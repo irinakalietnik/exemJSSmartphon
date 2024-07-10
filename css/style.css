@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 170px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 24px;
+  height: 100%;
+  gap: 25px;
+}
+.card {
+  font-family: "Montserrat", sans-serif;
+  flex-basis: 190px;
+  box-shadow: 0px 2px 8px 4px gray;
+  height: 300px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.discount {
+  top: -8px;
+  left: 15px;
+  font-size: 14px;
+  position: absolute;
+  padding: 5px 10px;
+  background-color: rgb(250, 14, 14);
+  border-radius: 8px;
+  color: white;
+}
+.category {
+  font-style: italic;
+  bottom: -8px;
+  right: -8px;
+  font-size: 14px;
+  position: absolute;
+  padding: 5px 10px;
+  background-color: rgba(94, 96, 100, 0.7);
+  border-radius: 12px 6px 12px 6px;
+  color: white;
+}
+.card-top {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.image-box {
+  height: 100px;
+  overflow: hidden;
+}
+.image {
+  width: 100%;
+}
+
+.card-bottom {
+  flex-grow: 1;
+  justify-content: space-around;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(83, 82, 85);
+}
+.price-box {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.price {
+  color: rgb(250, 14, 14);
+  font-size: 22px;
+  font-weight: 600;
+}
