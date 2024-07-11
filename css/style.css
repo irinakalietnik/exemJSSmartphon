@@ -44,6 +44,7 @@ p {
   position: absolute;
   padding: 5px 10px;
   background-color: rgb(250, 14, 14);
+
   border-radius: 8px;
   color: white;
 }

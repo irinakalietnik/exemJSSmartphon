@@ -437,6 +437,10 @@ products.forEach((product) => {
       </div>`;
   let basket = document.getElementById(product.id);
   basket.onclick = function () {
+    basket.style.color = "#9cb8e9";
     console.log(this.id);
+  };
+  basket.onmouseleave = function () {
+    basket.style.color = "#075ef2";
   };
 });
